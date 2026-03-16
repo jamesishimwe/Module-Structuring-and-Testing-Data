@@ -3,7 +3,7 @@
 
 // this function should square any number but instead we're going to get an error
 
-// =============> write your prediction of the error here
+// =============>  This code will give an error because the parameter name '3' is not a valid variable name in JavaScript. Variable names cannot start with a number, and '3' is not a valid identifier. This will result in a SyntaxError when the code is executed. To fix this, we need to use a valid variable name for the parameter that starts with a letter or an underscore.
 
 function square(3) {
     return num * num;
