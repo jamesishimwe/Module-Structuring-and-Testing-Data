@@ -10,4 +10,11 @@ function capitalise(str) {
 }
 
 // The error occurs because the variable 'str' is being declared twice, once as a parameter and once inside the function. This causes a conflict and results in an error message indicating that 'str' has already been declared. To fix this, we can remove the redeclaration and directly modify the input string without declaring a new variable.
-// =============> write your new code here
+// Here's the corrected code:
+
+function capitalise(str) {
+  str = `${str[0].toUpperCase()}${str.slice(1)}`;
+  return str;
+}
+
+// Now the function should work correctly and return the input string with the first letter capitalised.
