@@ -15,6 +15,11 @@ function square(3) {
 
 // Finally, correct the code to fix the problem
 
-// =============> write your new code here
+// Here's the corrected code:   
+function square(num) {
+    return num * num;
+}
+
+// Now the function should work correctly and return the square of any number passed as an argument.
 
 
