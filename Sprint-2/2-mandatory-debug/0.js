@@ -11,4 +11,9 @@ console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
 // To fix the problem, we need to make sure that the multiply function returns the product of a and b instead of just logging it to the console. We can do this by replacing console.log with a return statement.
 
 // Finally, correct the code to fix the problem
+function multiply(a, b) {
+  return a * b;
+}
+
+console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
 //
