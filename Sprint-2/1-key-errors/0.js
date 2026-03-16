@@ -9,5 +9,5 @@ function capitalise(str) {
   return str;
 }
 
-// =============> write your explanation here
+// The error occurs because the variable 'str' is being declared twice, once as a parameter and once inside the function. This causes a conflict and results in an error message indicating that 'str' has already been declared. To fix this, we can remove the redeclaration and directly modify the input string without declaring a new variable.
 // =============> write your new code here
