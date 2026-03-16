@@ -3,12 +3,12 @@
 
 // call the function capitalise with a string input
 // interpret the error message and figure out why an error is occurring
-
+/*
 function capitalise(str) {
   let str = `${str[0].toUpperCase()}${str.slice(1)}`;
   return str;
 }
-
+*/
 // The error occurs because the variable 'str' is being declared twice, once as a parameter and once inside the function. This causes a conflict and results in an error message indicating that 'str' has already been declared. To fix this, we can remove the redeclaration and directly modify the input string without declaring a new variable.
 // Here's the corrected code:
 
