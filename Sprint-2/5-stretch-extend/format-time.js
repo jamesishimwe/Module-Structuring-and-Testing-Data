@@ -8,8 +8,9 @@ function formatAs12HourClock(time) {
     return `${hours - 12}:00 pm`;
   } else if (hours === 12) {
     return `${time} pm`;
+  } else if (hours === 0) {
+    return `${time} am`;
   }
-
   return `${time} am`;
 }
 
