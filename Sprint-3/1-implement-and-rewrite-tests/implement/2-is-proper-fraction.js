@@ -9,7 +9,8 @@
 
 function isProperFraction(numerator, denominator) {
   if (numerator < denominator) {
-    if (Math.abs(numerator) > Math.abs(denominator)) return false;
+    if (numerator === 0) return false;
+    else if (Math.abs(numerator) > Math.abs(denominator)) return false;
     else if (Math.abs(numerator) < Math.abs(denominator)) return true;
   } else if (numerator > denominator) {
     if (Math.abs(numerator) > Math.abs(denominator)) return false;
@@ -61,3 +62,6 @@ const equalFraction = isProperFraction(3, 3);
 assertEquals(equalFraction, false);
 // Stretch:
 // What other scenarios could you test for?
+//Testing for 0 numerator
+const zeroNumerator = isProperFraction(0, 2);
+assertEquals(zeroNumerator, false);
