@@ -67,3 +67,6 @@ assertEquals(straight, "Straight angle");
 // ====> write your test here, and then add a line to pass the test in the function above
 const reflex = getAngleType(45);
 assertEquals(reflex, "Reflex angle");
+
+const full = getAngleType(45);
+assertEquals(full, "Full angle");
