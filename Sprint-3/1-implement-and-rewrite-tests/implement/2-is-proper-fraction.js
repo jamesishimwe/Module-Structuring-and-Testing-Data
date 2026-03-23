@@ -10,7 +10,10 @@
 function isProperFraction(numerator, denominator) {
   if (numerator < denominator) {
     return true;
-  }
+  } else if (numerator > denominator) return false;
+  else if (Math.abs(numerator) < Math.abs(denominator)) return true;
+  else if (Math.abs(numerator) > Math.abs(denominator)) return false;
+  else if (numerator === denominator) return false;
 }
 
 // The line below allows us to load the isProperFraction function into tests in other files.
