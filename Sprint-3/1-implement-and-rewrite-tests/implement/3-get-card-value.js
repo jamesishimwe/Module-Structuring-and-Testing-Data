@@ -16,6 +16,7 @@ function getCardValue(card) {
     return 11;
   } else if (numberCards.includes(rank)) return Number(rank);
   else if (otherCards.includes(rank)) return 10;
+  else return "Invalid Card";
 }
 
 // The line below allows us to load the getCardValue function into tests in other files.
