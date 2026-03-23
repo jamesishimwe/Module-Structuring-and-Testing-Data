@@ -10,6 +10,8 @@
 function getCardValue(card) {
   let rank = card.slice(0, 1);
   if (card.slice(0, 2) === "10") rank = card.slice(0, 2);
+  const numberCards = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+  const otherCards = ["10", "K", "J", "Q"];
   if (rank === "A") {
     return 11;
   }
