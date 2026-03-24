@@ -8,6 +8,15 @@ test("should return 11 for Ace of Spades", () => {
 });
 
 // Case 2: Handle Number Cards (2-10):
+
+test("should return number 2 for 2 of Spades", () => {
+  const twoOfSpades = getCardValue("2♠");
+  expect(twoOfSpades).toEqual(2);
+});
+test("should return number 8 for 8 of Spades", () => {
+  const eightOfSpades = getCardValue("8♠");
+  expect(eightOfSpades).toEqual(8);
+});
 // Case 3: Handle Face Cards (J, Q, K):
 // Case 4: Handle Ace (A):
 // Case 5: Handle Invalid Cards:
