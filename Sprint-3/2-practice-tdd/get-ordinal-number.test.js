@@ -27,3 +27,11 @@ test("should return '2nd' for 2", () => {
 test("should return '3rd' for 3", () => {
   expect(getOrdinalNumber(3)).toEqual("3rd");
 });
+
+// Case 4: Identify the ordinal number for Other numbers ending in 4-9
+// When the number is 30,
+// Then the function should return "30th"
+
+test("should return '30th' for 30", () => {
+  expect(getOrdinalNumber(30)).toEqual("30th");
+});
