@@ -29,3 +29,7 @@ test("should return 10 for Face cards", () => {
 });
 // Case 4: Handle Ace (A):
 // Case 5: Handle Invalid Cards:
+test("should return Invalid Card for Invalid Cards/Other inputs", () => {
+  const InvalidCard = getCardValue("X");
+  expect(InvalidCard).toEqual("Invalid Card");
+});
