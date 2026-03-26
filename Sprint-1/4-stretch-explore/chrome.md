@@ -16,7 +16,3 @@ Now try invoking the function `prompt` with a string input of `"What is your nam
 
 What effect does calling the `prompt` function have?
 What is the return value of `prompt`?
-
-The alert function  displays a message box with the text.
-The prompt function collects text input from a user through a dialog box.
-The return value of prompt is a text input by the user.
